@@ -385,6 +385,21 @@
                          <use href="./images/icons.svg#icon-close"></use>
                      </svg>
                  </button>
+                 <p class="title">Оставьте свои данные, мы вам перезвоним</p>
+                 <form action="#" class="form">
+                     <label for="user-name" class="input-text">Имя</label>
+                     <input type="text" name="user-name" class="input" id="user-name" required>                    
+                     <label for="user-tel" class="input-text">Телефон</label>                                  
+                     <input type="tel" name="user-tel" class="input" id="user-tel" required>                   
+                     <label for="user-email" class="input-text">Почта</label>
+                     <input type="email" name="user-email" class="input" id="user-email" required>
+                     <label for="user-text" class="input-text">Комментарий</label>
+                     <textarea name="user-text" id="user-text" class="comment-text" placeholder="Введите текст"></textarea>
+                     <fieldset>
+                         <label><input type="checkbox">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                        </fieldset>                    
+                     <button type="submit">Отправить</button>
+                 </form>
              </div>
          </div>
         <script src="./js/modal.js"></script>
