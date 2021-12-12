@@ -415,9 +415,11 @@ img {
 }
 
 .footer .container {
+  align-items: baseline;
   display: flex;
 }
 .adress {
+  flex-grow: 1;
   margin-right: 70px;
 }
 .adress .list {
@@ -451,10 +453,8 @@ img {
 }
 .soc-link {
   width: 206px;
-  height: 80px;
 }
 .soc-link .title {
-  margin-top: 12px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -502,7 +502,6 @@ img {
 }
 .e-mail .title {
   margin-bottom: 20px;
-  margin-top: 12px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
